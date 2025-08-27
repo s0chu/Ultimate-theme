@@ -7,6 +7,9 @@ cd Orchis-theme
 ./install.sh -n "Ultimate" -t green -c dark -i ubuntu -l -f --tweaks solid compact black dock 
 cd ..
 
+#Icons
+
+
 #ZSH
 sudo apt install -y zsh
 sudo apt install -y zsh-syntax-highlighting 
@@ -22,3 +25,4 @@ gsettings set org.gnome.desktop.background picture-uri-dark "file://$(realpath b
 #Extensions
 sudo apt install -y gnome-tweaks
 sudo apt install -y gnome-shell-extension-prefs
+
